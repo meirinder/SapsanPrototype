@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		C4DA1B232180288A00774CBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1B222180288A00774CBC /* AppDelegate.swift */; };
-		C4DA1B252180288A00774CBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1B242180288A00774CBC /* ViewController.swift */; };
 		C4DA1B282180288A00774CBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1B262180288A00774CBC /* Main.storyboard */; };
 		C4DA1B2A2180288C00774CBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1B292180288C00774CBC /* Assets.xcassets */; };
 		C4DA1B2D2180288C00774CBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DA1B2B2180288C00774CBC /* LaunchScreen.storyboard */; };
+		C4DA1B372180292100774CBC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1B362180292100774CBC /* LoginViewController.swift */; };
+		C4DA1B392180292D00774CBC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1B382180292D00774CBC /* HomeViewController.swift */; };
+		C4DA1B412180417900774CBC /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1B402180417900774CBC /* MenuViewController.swift */; };
+		C4DA1B432180418C00774CBC /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1B422180418C00774CBC /* MenuTableViewCell.swift */; };
+		C4DA1B45218074CD00774CBC /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1B44218074CD00774CBC /* OrderTableViewCell.swift */; };
+		C4DA1B47218085D500774CBC /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DA1B46218085D500774CBC /* Items.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C4DA1B1F2180288A00774CBC /* SapsanTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SapsanTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DA1B222180288A00774CBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C4DA1B242180288A00774CBC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C4DA1B272180288A00774CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4DA1B292180288C00774CBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4DA1B2C2180288C00774CBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4DA1B2E2180288C00774CBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4DA1B362180292100774CBC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C4DA1B382180292D00774CBC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C4DA1B402180417900774CBC /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		C4DA1B422180418C00774CBC /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		C4DA1B44218074CD00774CBC /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		C4DA1B46218085D500774CBC /* Items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				C4DA1B222180288A00774CBC /* AppDelegate.swift */,
-				C4DA1B242180288A00774CBC /* ViewController.swift */,
+				C4DA1B362180292100774CBC /* LoginViewController.swift */,
+				C4DA1B382180292D00774CBC /* HomeViewController.swift */,
+				C4DA1B46218085D500774CBC /* Items.swift */,
+				C4DA1B402180417900774CBC /* MenuViewController.swift */,
+				C4DA1B422180418C00774CBC /* MenuTableViewCell.swift */,
+				C4DA1B44218074CD00774CBC /* OrderTableViewCell.swift */,
 				C4DA1B262180288A00774CBC /* Main.storyboard */,
 				C4DA1B292180288C00774CBC /* Assets.xcassets */,
 				C4DA1B2B2180288C00774CBC /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4DA1B252180288A00774CBC /* ViewController.swift in Sources */,
+				C4DA1B45218074CD00774CBC /* OrderTableViewCell.swift in Sources */,
+				C4DA1B392180292D00774CBC /* HomeViewController.swift in Sources */,
+				C4DA1B372180292100774CBC /* LoginViewController.swift in Sources */,
 				C4DA1B232180288A00774CBC /* AppDelegate.swift in Sources */,
+				C4DA1B47218085D500774CBC /* Items.swift in Sources */,
+				C4DA1B412180417900774CBC /* MenuViewController.swift in Sources */,
+				C4DA1B432180418C00774CBC /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
